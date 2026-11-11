@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+allure-results/
+allure-report/
+allure-cli/
+allure.tgz
+.pytest_cache/
+uvicorn.log
+app.pid
