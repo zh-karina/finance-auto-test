@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Nov 12 17:12:49 CST 2026","Thu Nov 12 17:12:49 CST 2026","3","tests","test_finance","","","","test_voucher_invalid_amount","测试：录入金额小于等于 0 的凭证，应被拦截"
+"passed","Thu Nov 12 17:12:49 CST 2026","Thu Nov 12 17:12:49 CST 2026","23","tests","test_finance","","","","test_voucher_maker_cannot_be_checker","测试：制单人和审核人为同一人时，系统应拦截（财务内控红线）"
+"passed","Thu Nov 12 17:12:49 CST 2026","Thu Nov 12 17:12:49 CST 2026","6","tests","test_finance","","","","test_payment_success","测试：付款金额小于等于应付余额时，付款成功且余额正确扣减"
+"passed","Thu Nov 12 17:12:49 CST 2026","Thu Nov 12 17:12:49 CST 2026","3","tests","test_finance","","","","test_payment_exceed_balance","测试：付款金额大于应付余额时，应被系统拦截"
